@@ -148,16 +148,21 @@ header {
     color: red;
 }
 .border-1 {
-    border-top: 4px solid #1E8EF0;
+    background:#252B43 linear-gradient(#208DEA,#208DEA) no-repeat;
+    background-size: 100% 2%;
 }
 .border-2 {
-    border-top: 4px solid #F8B771;
+    background: #252B43 linear-gradient(to right,#F7B670, #E35D91) no-repeat;
+    background-size: 100% 2%;
 }
 .border-3 {
-    border-top: 4px solid #BC062B;
+    background: #252B43 linear-gradient(#BC062B, #BC062B) no-repeat;
+    background-size:100% 2%;
 }
 .s-c1 {
-    color: #F8B771;
+    background: linear-gradient(to right,#F7B670, #E35D91);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .s-c2 {
     color: #BC062B;
